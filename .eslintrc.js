@@ -5,15 +5,13 @@ module.exports = {
   },
 
   extends: [
-    'plugin:@typescript-eslint/recommended',
+    'standart',
     'plugin:prettier/recommended',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
   ],
-
-  parser: '@typescript-eslint/parser',
 
   plugins: ['unicorn', 'prettier'],
 
