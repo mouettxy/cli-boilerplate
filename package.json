@@ -2,7 +2,10 @@
   "name": "cli-boilerplate",
   "version": "1.0.0",
   "description": "NodeJS CLI boilerplate",
-  "main": "lib/index.js",
+  "main": "lib/index.mjs",
+  "bin": {
+    "module": "lib/index.mjs"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "nodemon -e mjs,js,json --exec \"zx ./lib/index.mjs\"",
